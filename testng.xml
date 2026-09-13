@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="NOVA Full Regression and Smoke Suite">
+    
+    <!-- API Integration Test Runner Section -->
+    <test name="API Tests Execution">
+        <classes>
+            <class name="NovaAutomation.NovaAPItest" />
+        </classes>
+    </test>
+
+    <!-- Web UI Automation Test Runner Section -->
+    <test name="UI Automation Tests Execution">
+        <classes>
+            <class name="NovaAutomation.NovaUIAutomation" />
+        </classes>
+    </test>
+    
+</suite>
